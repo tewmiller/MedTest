@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85C98B661AF03A69001EEFCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C98B651AF03A69001EEFCD /* AppDelegate.swift */; };
+		85C98B681AF03A69001EEFCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C98B671AF03A69001EEFCD /* ViewController.swift */; };
+		85C98B6B1AF03A69001EEFCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C98B691AF03A69001EEFCD /* Main.storyboard */; };
+		85C98B6D1AF03A69001EEFCD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85C98B6C1AF03A69001EEFCD /* Images.xcassets */; };
+		85C98B701AF03A69001EEFCD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85C98B6E1AF03A69001EEFCD /* LaunchScreen.xib */; };
+		85C98B7C1AF03A69001EEFCD /* MillerDynamicMedTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C98B7B1AF03A69001EEFCD /* MillerDynamicMedTestTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85C98B761AF03A69001EEFCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85C98B581AF03A69001EEFCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85C98B5F1AF03A69001EEFCD;
+			remoteInfo = MillerDynamicMedTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85C98B601AF03A69001EEFCD /* MillerDynamicMedTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MillerDynamicMedTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85C98B641AF03A69001EEFCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85C98B651AF03A69001EEFCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		85C98B671AF03A69001EEFCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85C98B6A1AF03A69001EEFCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85C98B6C1AF03A69001EEFCD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		85C98B6F1AF03A69001EEFCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		85C98B751AF03A69001EEFCD /* MillerDynamicMedTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MillerDynamicMedTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85C98B7A1AF03A69001EEFCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85C98B7B1AF03A69001EEFCD /* MillerDynamicMedTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MillerDynamicMedTestTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85C98B5D1AF03A69001EEFCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85C98B721AF03A69001EEFCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85C98B571AF03A69001EEFCD = {
+			isa = PBXGroup;
+			children = (
+				85C98B621AF03A69001EEFCD /* MillerDynamicMedTest */,
+				85C98B781AF03A69001EEFCD /* MillerDynamicMedTestTests */,
+				85C98B611AF03A69001EEFCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85C98B611AF03A69001EEFCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85C98B601AF03A69001EEFCD /* MillerDynamicMedTest.app */,
+				85C98B751AF03A69001EEFCD /* MillerDynamicMedTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85C98B621AF03A69001EEFCD /* MillerDynamicMedTest */ = {
+			isa = PBXGroup;
+			children = (
+				85C98B651AF03A69001EEFCD /* AppDelegate.swift */,
+				85C98B671AF03A69001EEFCD /* ViewController.swift */,
+				85C98B691AF03A69001EEFCD /* Main.storyboard */,
+				85C98B6C1AF03A69001EEFCD /* Images.xcassets */,
+				85C98B6E1AF03A69001EEFCD /* LaunchScreen.xib */,
+				85C98B631AF03A69001EEFCD /* Supporting Files */,
+			);
+			path = MillerDynamicMedTest;
+			sourceTree = "<group>";
+		};
+		85C98B631AF03A69001EEFCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85C98B641AF03A69001EEFCD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85C98B781AF03A69001EEFCD /* MillerDynamicMedTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				85C98B7B1AF03A69001EEFCD /* MillerDynamicMedTestTests.swift */,
+				85C98B791AF03A69001EEFCD /* Supporting Files */,
+			);
+			path = MillerDynamicMedTestTests;
+			sourceTree = "<group>";
+		};
+		85C98B791AF03A69001EEFCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85C98B7A1AF03A69001EEFCD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85C98B5F1AF03A69001EEFCD /* MillerDynamicMedTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85C98B7F1AF03A69001EEFCD /* Build configuration list for PBXNativeTarget "MillerDynamicMedTest" */;
+			buildPhases = (
+				85C98B5C1AF03A69001EEFCD /* Sources */,
+				85C98B5D1AF03A69001EEFCD /* Frameworks */,
+				85C98B5E1AF03A69001EEFCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MillerDynamicMedTest;
+			productName = MillerDynamicMedTest;
+			productReference = 85C98B601AF03A69001EEFCD /* MillerDynamicMedTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85C98B741AF03A69001EEFCD /* MillerDynamicMedTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85C98B821AF03A69001EEFCD /* Build configuration list for PBXNativeTarget "MillerDynamicMedTestTests" */;
+			buildPhases = (
+				85C98B711AF03A69001EEFCD /* Sources */,
+				85C98B721AF03A69001EEFCD /* Frameworks */,
+				85C98B731AF03A69001EEFCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85C98B771AF03A69001EEFCD /* PBXTargetDependency */,
+			);
+			name = MillerDynamicMedTestTests;
+			productName = MillerDynamicMedTestTests;
+			productReference = 85C98B751AF03A69001EEFCD /* MillerDynamicMedTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85C98B581AF03A69001EEFCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Taylor Miller";
+				TargetAttributes = {
+					85C98B5F1AF03A69001EEFCD = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					85C98B741AF03A69001EEFCD = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 85C98B5F1AF03A69001EEFCD;
+					};
+				};
+			};
+			buildConfigurationList = 85C98B5B1AF03A69001EEFCD /* Build configuration list for PBXProject "MillerDynamicMedTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85C98B571AF03A69001EEFCD;
+			productRefGroup = 85C98B611AF03A69001EEFCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85C98B5F1AF03A69001EEFCD /* MillerDynamicMedTest */,
+				85C98B741AF03A69001EEFCD /* MillerDynamicMedTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85C98B5E1AF03A69001EEFCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C98B6B1AF03A69001EEFCD /* Main.storyboard in Resources */,
+				85C98B701AF03A69001EEFCD /* LaunchScreen.xib in Resources */,
+				85C98B6D1AF03A69001EEFCD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85C98B731AF03A69001EEFCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85C98B5C1AF03A69001EEFCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C98B681AF03A69001EEFCD /* ViewController.swift in Sources */,
+				85C98B661AF03A69001EEFCD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85C98B711AF03A69001EEFCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C98B7C1AF03A69001EEFCD /* MillerDynamicMedTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85C98B771AF03A69001EEFCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85C98B5F1AF03A69001EEFCD /* MillerDynamicMedTest */;
+			targetProxy = 85C98B761AF03A69001EEFCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85C98B691AF03A69001EEFCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85C98B6A1AF03A69001EEFCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85C98B6E1AF03A69001EEFCD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85C98B6F1AF03A69001EEFCD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85C98B7D1AF03A69001EEFCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85C98B7E1AF03A69001EEFCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85C98B801AF03A69001EEFCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MillerDynamicMedTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85C98B811AF03A69001EEFCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MillerDynamicMedTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		85C98B831AF03A69001EEFCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MillerDynamicMedTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MillerDynamicMedTest.app/MillerDynamicMedTest";
+			};
+			name = Debug;
+		};
+		85C98B841AF03A69001EEFCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MillerDynamicMedTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MillerDynamicMedTest.app/MillerDynamicMedTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85C98B5B1AF03A69001EEFCD /* Build configuration list for PBXProject "MillerDynamicMedTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85C98B7D1AF03A69001EEFCD /* Debug */,
+				85C98B7E1AF03A69001EEFCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85C98B7F1AF03A69001EEFCD /* Build configuration list for PBXNativeTarget "MillerDynamicMedTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85C98B801AF03A69001EEFCD /* Debug */,
+				85C98B811AF03A69001EEFCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		85C98B821AF03A69001EEFCD /* Build configuration list for PBXNativeTarget "MillerDynamicMedTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85C98B831AF03A69001EEFCD /* Debug */,
+				85C98B841AF03A69001EEFCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85C98B581AF03A69001EEFCD /* Project object */;
+}
